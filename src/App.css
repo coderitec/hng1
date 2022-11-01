@@ -2,13 +2,16 @@
 .img-avatar{
   display: block;
   margin: 0 auto;
-  max-width: 10%;
   border-radius: 50%;
-  border: 5px solid blue;
+  border: none;
+  width: 40px;
+  height: 40px;
 }
 
 .title{
   text-align: center;
+  font-size: 20px;
+  /* margin-top: -3em; */
   font-family: 'Arial Narrow Bold', sans-serif;
 }
 
