@@ -41,8 +41,13 @@ h3{
   text-align: center;
   text-decoration: none;
   padding: 0.5em 0;
+  line-height: 1.5;
   background-color: black;
   color: white;
-  font-weight:normal;
-  font-size: 16px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.link-section a:hover{
+  box-shadow: 0 0 5px white;
 }
