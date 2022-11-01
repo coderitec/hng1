@@ -1,16 +1,22 @@
+body{
+  padding: 1em;
+  background:url(https://wallpaperaccess.com/full/1215990.jpg);
+}
+
 
 .img-avatar{
   display: block;
   margin: 0 auto;
   border-radius: 50%;
   border: none;
-  width: 40px;
-  height: 40px;
+  width: 60px;
+  height: 60px;
 }
 
 .title{
   text-align: center;
   font-size: 20px;
+  color: white;
   /* margin-top: -3em; */
   font-family: 'Arial Narrow Bold', sans-serif;
 }
@@ -35,4 +41,8 @@ h3{
   text-align: center;
   text-decoration: none;
   padding: 0.5em 0;
+  background-color: black;
+  color: white;
+  font-weight:normal;
+  font-size: 16px;
 }
