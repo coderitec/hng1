@@ -1,5 +1,5 @@
 import React from 'react'
-import pic from '../images/francis.png'
+import pic from '../media/francis.png'
 import '../App.css'
 
 export default function Profile() {
