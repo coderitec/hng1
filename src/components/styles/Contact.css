@@ -82,3 +82,89 @@ button{
     color: white;
 }
 }
+
+@media screen and (max-width: 800px) {
+            
+    form{
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    ul{
+        list-style-type: none;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(7, 80px);
+        grid-template-areas: "a"
+                            "b"
+                            "c"
+                            "d"
+                            "e"
+                            "f"
+                            "g";
+    gap: 20px;                     
+}
+
+ul li:nth-of-type(1){
+    grid-area: a;
+}
+
+ul li:nth-of-type(2){
+    grid-area: b;
+    margin-top: 10px;
+}
+ul li:nth-of-type(3){
+    grid-area: c;
+    margin-top: 10px;
+}
+ul li:nth-of-type(4){
+    grid-area: d;
+}
+ul li:nth-of-type(5){
+    grid-area: e;
+}
+ul li:nth-of-type(6){
+    grid-area: f;
+    margin-top: 70px;
+}
+ul li:nth-of-type(7){
+    grid-area: g;
+}
+
+label{
+    display: block;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    
+}
+
+input, textarea, button{
+    border-radius: 10px;
+}
+
+input[type="text"]{
+    width: 90%;
+    padding: 1em 0.5em;
+}
+input[type="email"]{
+    width: 90%;
+    padding: 1em 0.5em;
+}
+textarea{
+    width: 90%;
+    padding: 1em 0.5em;
+}
+ul li:nth-of-type(6) label{
+    text-transform: none;
+    display: inline;
+}
+
+button{
+    width: 90%;
+    padding: 1em 0.5em;
+    margin-top: 20px;
+    border: none;
+    background-color: #1570EF;
+    color: white;
+}
+}
