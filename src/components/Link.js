@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 
 export default function Link() {
@@ -14,7 +15,9 @@ export default function Link() {
         
             <a href = "https://background.zuri.team" id='pitch'>Connect with me</a>
     
-            <a href = "https://books.zuri.team/design-rules" id='book_design'>Design Books</a>        
+            <a href = "https://books.zuri.team/design-rules" id='book_design'>Design Books</a> 
+
+            <a href = "#" id='contact'>Contact</a>       
     </div>
   )
 }
