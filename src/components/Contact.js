@@ -1,10 +1,12 @@
 import React from 'react'
+import Footer from './Footer'
 import './styles/Contact.css'
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default function 
 () {
   return (
+    <>
     <form>
         <ul>
             <li>
@@ -36,5 +38,7 @@ export default function
             </li>
         </ul>
     </form>
+    <Footer />
+    </>
   )
 }
