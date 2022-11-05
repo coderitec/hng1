@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Contact from './Contact'
 
 export default function Parts() {
   return (
@@ -18,7 +19,7 @@ export default function Parts() {
     
             <a href = "https://books.zuri.team/design-rules" id='book_design'>Design Books</a> 
 
-            <Link to = "#" id='contact'>Contact</Link>       
+            <Link to="/contact" id='contact'>Contact</Link>       
     </div>
   )
 }
